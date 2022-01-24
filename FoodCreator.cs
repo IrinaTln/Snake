@@ -14,6 +14,7 @@ namespace Snake
 
 		public FoodCreator(int mapWidth, int mapHeight, char sym)
 		{
+			
 			this.mapWidht = mapWidth;
 			this.mapHeight = mapHeight;
 			this.sym = sym;

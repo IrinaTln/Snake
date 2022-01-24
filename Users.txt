@@ -1,0 +1,10 @@
+0 Lisa
+1 liza
+0 mama
+1 Irina
+2 Papa
+0 snake
+1 Petja
+2 KUKU
+1 Tanja
+0 Kalju

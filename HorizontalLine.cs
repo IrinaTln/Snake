@@ -6,7 +6,7 @@ namespace Snake
 {
     class HorizontalLine : Figure
     {
-        public HorizontalLine(int xLeft, int xRight, int y, char sym, ConsoleColor BorderColor)
+        public HorizontalLine(int xLeft, int xRight, int y, char sym)
         {
             pList = new List<Point>();
             for(int x =xLeft; x<=xRight; x++)
@@ -15,9 +15,7 @@ namespace Snake
                 pList.Add(p);
             }
 
-            this.BorderColor = BorderColor;
         }
-
-        public ConsoleColor BorderColor { get; }
+      
     }
 }

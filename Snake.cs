@@ -11,6 +11,7 @@ namespace Snake
         Direction direction;
         public Snake (Point tail, int lenght, Direction _direction)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             direction = _direction;
             pList = new List<Point>();
 
